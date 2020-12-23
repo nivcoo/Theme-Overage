@@ -6,7 +6,7 @@
             <div class="box-1 col-sm-4 offset-sm-4">
                 <div class="box-up">
                     <?php if (!empty($theme_config['global']->logo_url)) { ?>
-                        <img src="https://edensky.fr/img/uploads/theme_logo.png" style="padding-top: 4rem" width="250" alt="Logo">
+                        <img src="<?= $theme_config['global']->logo_url ?>" style="padding-top: 4rem" width="250" alt="Logo">
                     <?php } else { ?>
                         <?php
                         $url = "/";
