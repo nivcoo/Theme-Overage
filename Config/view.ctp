@@ -114,7 +114,7 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
                                                 <label>Ligne 2</label>
                                                 <input type="text" class="form-control" name="global[section][two][desc]"
                                                        placeholder="Description"
-                                                       value="<?= $config['global']->section->two->icon ?>"><br>
+                                                       value="<?= $config['global']->section->two->desc ?>"><br>
                                                 <input type="text" class="form-control" name="global[section][two][icon]"
                                                        placeholder="Icon FontAwesome 5"
                                                        value="<?= $config['global']->section->two->icon ?>">
@@ -123,7 +123,7 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
                                                 <label>Ligne 3</label>
                                                 <input type="text" class="form-control" name="global[section][three][desc]"
                                                        placeholder="Description"
-                                                       value="<?= $config['global']->section->three->icon ?>"><br>
+                                                       value="<?= $config['global']->section->three->desc ?>"><br>
                                                 <input type="text" class="form-control" name="global[section][three][icon]"
                                                        placeholder="Icon FontAwesome 5"
                                                        value="<?= $config['global']->section->three->icon ?>">
