@@ -1,0 +1,41 @@
+{
+    "name": "Overage",
+    "slug": "Overage",
+    "author": "nivcoo",
+    "version": "1.0.0",
+    "apiID": 0,
+    "slider": false,
+    "configurations": {
+        "global": {
+            "ip": "play.edensky.fr",
+            "slider": "https:\/\/edensky.fr\/img\/uploads\/banner_22_09_2020.webp",
+            "logo_url": "https:\/\/edensky.fr\/img\/uploads\/theme_logo.png",
+            "article_shop": "1",
+            "color": "#212121",
+            "section_title": "Salut",
+            "section_desc": "Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos",
+            "section": {
+                "one": {
+                    "desc": "per municipia plurima, quae isdem conterminant, dispositos et cast",
+                    "icon": "fab fa-accessible-icon"
+                },
+                "two": {
+                    "desc": "fab fa-accessible-icon",
+                    "icon": "fab fa-accessible-icon"
+                },
+                "three": {
+                    "desc": "fab fa-accessible-icon",
+                    "icon": "fab fa-accessible-icon"
+                }
+            }
+        },
+        "footer": {
+            "facebook_link": "\/",
+            "twitter_link": "\/",
+            "youtube_link": "\/",
+            "skype_link": "\/"
+        },
+        "logo": false
+    },
+    "supported": []
+}

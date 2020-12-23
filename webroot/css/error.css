@@ -1,0 +1,27 @@
+#error {
+    background-size: cover;
+    background-position: center;
+    padding-top: 5pc;
+    padding-bottom: 12pc;
+    background-color: #ffffff38 !important;
+}
+
+#error .title {
+    text-transform: uppercase;
+    font-size: 4em;
+    margin: 150px 0 0;
+    font-family: 'Fredoka One', cursive;
+    width: 100%;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+
+#error .subtitle {
+    font-size: 2em;
+    width: 100%;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}

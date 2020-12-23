@@ -1,0 +1,114 @@
+#navbarTitle {
+    background: #212121;
+    position: relative;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 10pc
+}
+
+
+#navbarTitle .title-box {
+    padding: 20px;
+
+}
+
+#navbarTitle .title {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    position: relative;
+    z-index: 2;
+    text-decoration: none !important;
+}
+
+#navbarTitle .boxUp {
+    margin-left: 20px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: 0px 0px 38px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 38px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+#navbarTitle .btn-login:hover, #navbarTitle .btn-register:hover {
+    background-color: #e9ecef;
+}
+#navbarTitle .btn {
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 12px;
+    border-top: none;
+    border-right: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+#navbar-section {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+#navbar-section .icon-nav {
+    color: black;
+    border: 2px solid white;
+    font-family: 'Bree Serif', serif;
+    margin: 10px;
+}
+
+#navbar-section .icon-nav:focus {
+    box-shadow: none !important;
+}
+
+#navbar-section .nav-link {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+#navbar-section .nav-link:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+#navbar-section .navbar {
+    padding: 0 !important;
+    margin-left: -15px;
+}
+
+#navbar-section .dropdown-menu {
+    border-radius: 0;
+    margin: 0px 0px 10px 0px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    padding: 0;
+    border: none;
+}
+
+
+#navbar-section .dropdown-item {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none !important;
+}
+
+#navbar-section .online-box {
+    border-bottom: 4px solid transparent !important;
+    font-family: 'Fredoka One', cursive;
+    background-color: #e9ecef;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+

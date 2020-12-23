@@ -1,0 +1,125 @@
+#plugin-vote {
+	margin-top: 3pc;
+	margin-bottom: 3pc;
+}
+
+
+#plugin-vote .title {
+	padding: 20px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	position: relative;
+	background-color: #e9ecef;
+}
+
+#plugin-vote .body {
+	box-shadow: 0px 1px 15px #bbbcb8;
+	font-family: 'Bree Serif', serif;
+	padding: 20px;
+	overflow: hidden;
+}
+
+
+#plugin-vote .send {
+	color: black;
+	margin-top:10px;
+	border-radius:0px;
+	font-family: 'Bree Serif', serif;
+	background-color: #e9ecef;
+}
+
+#plugin-shop {
+	margin-top: 3pc;
+	margin-bottom: 3pc;
+}
+
+#plugin-shop #box {
+	padding: 0;
+	margin-top: 3pc;
+}
+#plugin-shop .category_bar {
+	box-shadow: 0px 1px 15px #bbbcb8;
+	font-family: 'Bree Serif', serif;
+}
+
+#plugin-shop .category_bar .nav_item {
+	display: inline-block;
+	padding: 15px 30px 15px 30px;
+	color: black;
+	font-family: 'Bree Serif', serif;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+
+#plugin-shop .category_bar .nav_item:hover {
+	border-bottom: 4px solid #212121;
+	text-decoration: none;
+}
+
+#plugin-shop .article {
+	margin-top: 3pc;
+}
+
+#plugin-shop .price {
+	position: absolute;
+	bottom: 4.5pc;
+	color: #212121;
+	font-family: 'Bree Serif', serif;
+	background-color: #e9ecef;
+	box-shadow: 0px 0px 38px -1px rgba(0, 0, 0, 0.75);
+	padding: 5px 15px 5px 15px;
+}
+
+#plugin-shop .title-box {
+	color: white;
+	font-family: 'Bree Serif', serif;
+	background-color: #212121;
+	padding: 15px;
+	font-size: 20px;
+	box-shadow: 0px 1px 15px #bbbcb8;
+}
+
+#plugin-shop .button-box {
+	text-decoration: none !important;
+}
+
+#plugin-shop .button-box img {
+	border-top: 1px solid #212121;
+	border-right: 1px solid #212121;
+	border-left: 1px solid #212121;
+}
+
+
+#plugin-shop .button {
+	background-color: #e9ecef;
+	border-radius: 0;
+	display: inline-block;
+	text-decoration: none !important;
+}
+
+#plugin-shop .dropdown-menu {
+	border-radius: 0;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 0px 1px 15px #bbbcb8;
+	padding: 0;
+	border: none;
+}
+
+
+#plugin-shop .dropdown-item {
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+	color: black;
+	text-decoration: none !important;
+}
+
+#plugin-shop .clickable {
+	cursor:pointer
+}
+
+#plugin-shop #box .code {
+	margin-bottom:20px;
+}

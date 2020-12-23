@@ -1,0 +1,29 @@
+#users_login label {
+    margin-top: 10px;
+}
+
+#users_login .forgot {
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    color: #2D241E;
+}
+
+
+#users_login .send, #profile .send {
+    color: black;
+    margin-top: 10px;
+    border-radius: 0px;
+    font-family: 'Bree Serif', serif;
+    background-color: #e9ecef;
+}
+
+#profile .nav-item a {
+    color: #495057;
+    border-radius: 0px;
+}
+
+
+#skin_import, #cape_import {
+    margin-top: 10px;
+}
+
