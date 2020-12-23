@@ -91,7 +91,7 @@
                                 <th>Votes</th>
                             </tr>
                             </thead>
-                            <tbody style="color: white;">
+                            <tbody>
 
 
                             <?php
@@ -107,6 +107,7 @@
                                 else if ($i === 3)
                                     echo '&nbsp;<i style="color:rgb(176, 0, 14);" class="fa fa-trophy"></i>';
                                 echo "</td>";
+                                echo "<td></td>";
                                 echo "<td><img src='{$this->Html->url(['controller' => 'API', 'action' => 'get_head_skin', 'plugin' => false, $user['username'], 25])}' class='img-rounded' alt=''> &nbsp;{$user['username']}</td>";
                                 echo "<td>{$user['count']} " . strtolower($Lang->get('VOTE__TITLE_ACTION')) . "</td>";
                                 echo '</tr>';
