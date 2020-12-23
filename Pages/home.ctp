@@ -14,7 +14,6 @@
                         if ($EyPlugin->isInstalled('eywek.shop')) {
 
                             $id = intval($theme_config['global']->article_shop);
-                            $id = 1;
                             $get_item = ClassRegistry::init('Shop.Items')->find('first', [
                                 'conditions' => ['id' => $id]
                             ])['Items'];
