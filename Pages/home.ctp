@@ -56,7 +56,7 @@
                 if ($EyPlugin->isInstalled('eywek.vote')) {
                     $users_vote = ClassRegistry::init('Vote.Vote')->find('all', [
                         'fields' => ['username', 'COUNT(id) AS count'],
-                        'conditions' => ['created LIKE' => date('Y') . '-' . date('m') . '-%'],
+                        'conditions' => ['created LIKE' => date('Y') . '-' . date('m') . '-%', 'deleted_at' => null],
                         'order' => 'count DESC',
                         'group' => 'username',
                         'limit' => 3

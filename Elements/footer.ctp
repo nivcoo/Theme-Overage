@@ -16,7 +16,9 @@
                     if (!empty($youtube_link)) $i++;
                     if (!empty($skype_link)) $i++;
 
-                    $col = 12 / $i;
+                    $col = 0;
+                    if ($i > 0)
+                        $col = 12 / $i;
 
                     if (!empty($facebook_link))
                         echo '<div class="col-' . $col . ' text-center"><a class="s-icons" href="' . $facebook_link . '"><i class="icon-social-facebook"></i></a></div>';
