@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=yes">
     <meta name="author" content="nivcoo">
-    <meta name="keywords" content="">
-    <title><?= $title_for_layout; ?> - <?= $website_name ?></title>
-    <link rel="icon" type="image/png" href="<?= $theme_config['favicon_url'] ?>"/>
+
+    <title><?= $seo_config['title'] ?></title>
+    <link rel="icon" type="image/png" href="<?= $seo_config['favicon_url'] ?>"/>
+    <meta name="title" content="<?= $seo_config['title'] ?>">
+    <meta property="og:title" content="<?= $seo_config['title'] ?>">
+    <meta name="description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:image" content="<?= $seo_config['img_url'] ?>">
+
     <!-- CSS -->
     <?= $this->Html->css('global.css'); ?>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
