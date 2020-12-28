@@ -30,11 +30,20 @@
                     </div>
 
                     <div class="col-md-6 mt-3">
-                        <?php if ($reCaptcha['type'] == "google"): ?>
+                        <?php if ($captcha['type'] == "google") { ?>
                             <script src='https://www.google.com/recaptcha/api.js'></script>
-                            <div class="g-recaptcha" style="display:inline-block"
-                                 data-sitekey="<?= $reCaptcha['siteKey'] ?>"></div>
-                        <?php else: ?>
+                            <div class="form-group">
+                                <h5><?= $Lang->get('FORM__CAPTCHA') ?></h5>
+                                <div class="g-recaptcha" data-sitekey="<?= $captcha['siteKey'] ?>"></div>
+                            </div>
+
+                        <?php } else if ($captcha['type'] == "hcaptcha") { ?>
+                            <script src='https://www.hCaptcha.com/1/api.js' async defer></script>
+                            <div class="form-group">
+                                <h5><?= $Lang->get('FORM__CAPTCHA') ?></h5>
+                                <div class="h-captcha" data-sitekey="<?= $captcha['siteKey'] ?>"></div>
+                            </div>
+                        <?php } else { ?>
                             <div class="form-group">
                                 <?= $this->Html->image(array('controller' => 'user', 'action' => 'get_captcha', 'plugin' => false, 'admin' => false), array('plugin' => false, 'admin' => false, 'id' => 'captcha_image')); ?>
                                 <a href="javascript:void(0);" id="reload"><i class="fa fa-refresh"></i></a>
@@ -43,15 +52,15 @@
 
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-eye"></i></span>
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                    class="fa fa-eye"></i></span>
                                     </div>
                                     <input type="text" class="form-control" name="captcha" id="inputPassword3"
                                            placeholder="<?= $Lang->get('FORM__CAPTCHA_LABEL') ?>">
                                 </div>
 
                             </div>
-                        <?php endif; ?>
-
+                        <?php } ?>
                     </div>
                 </div>
                 <br>
